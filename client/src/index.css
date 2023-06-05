@@ -1,0 +1,46 @@
+body,html {
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: 'Poppins',sans-serif !important;
+}
+#root {
+  padding: 0px !important;
+  margin: 0 !important;
+  font-family: 'Poppins',sans-serif !important;
+}
+#root > .MuiContainer-root {
+  padding: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  font-family: 'Poppins',sans-serif !important;
+}
+
+#root > .MuiContainer-maxWidthLg {
+  max-width: 14208px !important;
+  font-family: 'Poppins',sans-serif !important;
+}
+.makeStyles-appBarSpacer-2 {
+  min-height: 44px !important;
+  font-family: 'Poppins',sans-serif !important;
+}
+ .makeStyles-appBar-1 {
+  background-color: none !important;
+}
+.MuiAppBar-colorPrimary {
+  background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.MuiContainer-root > .MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.makeStyles-appBarSpacer-2{
+  display: none;
+}
+
+.makeStyles-mainContainer-23 {
+  padding-top: 50px;
+}
+.custom_color{
+  color: rgb(47, 72, 88);;
+}
