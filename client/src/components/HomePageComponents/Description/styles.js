@@ -14,7 +14,7 @@ const styles = makeStyles(() => ({
   paper: {
     border: "5px solid #000WWW",
     //backgroundSize: "cover",
-    height: "100vh",
+    height: "110vh",
     
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -37,7 +37,7 @@ const styles = makeStyles(() => ({
     fontWeight: "400",
     fontFamily: "'Poppins', sans-serif",
     position: "absolute",
-    top: "52%",
+    top: "56%",
     left: "15%",
     transform: "translate(-2%,-60%)",
     color: "#2F4858",

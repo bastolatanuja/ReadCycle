@@ -1,7 +1,7 @@
 import React from "react";
 //import Carousel from "react-material-ui-carousel";
 import { Typography, Box, Icon } from "@material-ui/core";
-import Home from "../../../asset/Home.png";
+import Back from "../../../asset/Back.png";
 
 import useStyles from "./styles.js";
 import descData from "./descData.js";
@@ -70,7 +70,7 @@ const Description = () => {
         ))}
         
         <div className={classes.home_img}>
-    <img src={Home} style={{ width: "800px", height: "740px" }} alt="Home" />
+    <img src={Back} style={{ width: "800px", height: "600px" }} alt="Home" />
 </div>
  
       </div>

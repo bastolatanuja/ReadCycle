@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import $ from 'jquery'; 
 import {
   AppBar,
   Toolbar,
@@ -383,10 +384,31 @@ const Navbar = () => {
       </>
     );
   };
+  window.addEventListener('scroll', function() {
+    var element = document.querySelector('.MuiAppBar-root');
+    var position = element.getBoundingClientRect();
+  
+    // checking whether fully visible
+    console.log(position.top,(position.top >= -80))
 
+    if(position.top >= -80) {
+      
+      $('.makeStyles-cus_container-5').css('position','');
+      
+        $('.makeStyles-cus_container-5').css('margin-top','25px');
+        $('.makeStyles-cus_container-5').css('margin-left','40px');
+        $('.makeStyles-cus_container-5').css('margin-right','40px');
+    }else{
+      
+      $('.makeStyles-cus_container-5').css('position','fixed');
+      $('.makeStyles-cus_container-5').css('margin-top','0px');
+      $('.makeStyles-cus_container-5').css('margin-left','0px');
+      $('.makeStyles-cus_container-5').css('margin-right','0px');
+        }
+  });
   return (
     <>
-      <AppBar className={appBar} position="fixed">
+      <AppBar className={appBar} position="absolute">
         <div className={cus_container}>
         {mobileView ? displayMobile() : displayDesktop()}
         </div>
