@@ -58,8 +58,8 @@ const BookSlider = () => {
 
   const override = css`
     display: block;
-    border-color: red;
-    background-color: #eae7dc;
+    border-color: black;
+    background-color: #FFFFCC;
   `;
 
   const responsive = {
@@ -87,22 +87,22 @@ const BookSlider = () => {
 
   return (
     <>
-      <div style={{ background: "rgb(234,231,220)" }}>
+      <div style={{ background: "#FFFFCC" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
           }}
         >
-          Most Trending Books
+         <h4 style={{color:'#2f4858'}}>Most Trending Books</h4>
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid black",
             width: "300px",
-            background: "rgb(234,231,220)",
+            background: "#EEDC82",
             margin: "0px auto",
           }}
         />
@@ -122,7 +122,7 @@ const BookSlider = () => {
         <div
           style={{
             padding: "20px 10px",
-            background: "rgb(234,231,220)",
+            background: "#FFFFE0",
             marginTop: "0px",
             marginBottom: "0px",
           }}
@@ -145,22 +145,22 @@ const BookSlider = () => {
         </div>
       )}
 
-      <div style={{ background: "rgb(234,231,220)" }}>
+      <div style={{ background: "#FFFFCC" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
           }}
         >
-          Most Viewed Books
+          <h4 style={{color:'#2f4858'}}>Most View Books</h4>
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid black",
             width: "300px",
-            background: "rgb(234,231,220)",
+            background: "#EEDC82",
             margin: "0px auto",
           }}
         />
@@ -180,7 +180,7 @@ const BookSlider = () => {
         <div
           style={{
             padding: "20px 10px",
-            background: "rgb(234,231,220)",
+            background: "#FFFFE0",
             marginTop: "0px",
             marginBottom: "0px",
           }}

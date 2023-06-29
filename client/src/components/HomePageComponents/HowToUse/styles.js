@@ -5,14 +5,14 @@ import { makeStyles } from "@material-ui/core";
 const styles = makeStyles((theme) => ({
   main: {
     display: "flex",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     "@media (max-width : 700px)": {
       display: "inline",
     },
   },
   sell: {
     width: "50%",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     "@media (max-width : 700px)": {
       width: "100%",
       
@@ -20,7 +20,7 @@ const styles = makeStyles((theme) => ({
   },
   buy: {
     width: "50%",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     borderRight: "groove",
     "@media (max-width : 700px)": {
       width: "100%",
@@ -46,7 +46,7 @@ const styles = makeStyles((theme) => ({
   image: {
     height: "400px",
     width: "400px",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     "@media (max-width : 700px)": {
       height: "250px",
       width: "250px",
@@ -56,7 +56,7 @@ const styles = makeStyles((theme) => ({
   paper: {
     border: "5px solid #000WWW",
     backgroundSize: "cover",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     height: "400px",
     backgroundPosition: "center",
     width: "400px",
@@ -64,7 +64,7 @@ const styles = makeStyles((theme) => ({
 
   parent: {
     width: "80%",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     padding: "20px auto",
     margin: "0px auto",
   },

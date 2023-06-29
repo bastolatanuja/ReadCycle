@@ -44,3 +44,7 @@ body,html {
 .custom_color{
   color: rgb(47, 72, 88);;
 }
+
+.MuiAvatar-colorDefault {
+  background-color: #e8aa42 !important;
+}

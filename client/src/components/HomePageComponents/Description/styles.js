@@ -6,7 +6,7 @@ const styles = makeStyles(() => ({
     display : "flex",
   },
   home_img:{
-    backgroundColor: "#EAE7DC",
+    backgroundColor: "#FEDC56",
     width: "802px",
     display: "flex",
     alignItems: "center",
@@ -40,7 +40,7 @@ const styles = makeStyles(() => ({
     top: "56%",
     left: "15%",
     transform: "translate(-2%,-60%)",
-    color: "#2F4858",
+    color: "black",
     "@media (max-width : 700px)": {
       fontSize: "30px",
     },

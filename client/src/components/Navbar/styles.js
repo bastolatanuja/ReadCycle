@@ -37,7 +37,7 @@ const styles = makeStyles((theme) => ({
 cus_container: {
   marginTop: "25px",  
   display: "flex",
-  background: "#EDC253",
+  background: "#FFFFCC",
   width: "100%",
   marginLeft: "40px",
   justifyContent: "space-between",
@@ -52,7 +52,7 @@ cus_container: {
   drawerContainer: {
     padding: "10px 10px",
     background:
-      "linear-gradient(90deg, rgba(236,75,56,1) 10%, rgba(232,90,79,1) 55%)",
+    "#EFF2F5",
     borderRadius: "5px",
     margin: "7px",
     fontWeigth: "500",

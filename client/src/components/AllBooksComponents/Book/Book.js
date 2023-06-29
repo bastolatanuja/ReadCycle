@@ -101,7 +101,7 @@ const Book = ({book }) => {
                 style={{
                   marginLeft: "5px",
                   marginRight: "5px",
-                  color: "#e98074",
+                  color: "#E8AA42",
                 }}
               />
               {user ? (
@@ -122,10 +122,12 @@ const Book = ({book }) => {
             <CardActions disableSpacing>
               <ScheduleIcon
                 fontSize="small"
-                style={{ marginLeft: "5px", marginRight: "5px" }}
+                style={{ marginLeft: "5px", marginRight: "5px",color:"#E8AA42" }}
               />
               <Typography variant="body2">
-                {moment(book.createdAt).format("DD MMM, YYYY")}
+                {moment(book.createdAt).format("DD MMM, YYYY")},
+              
+          
               </Typography>
             </CardActions>
 

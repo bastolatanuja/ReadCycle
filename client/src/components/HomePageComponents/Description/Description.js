@@ -16,7 +16,7 @@ const Description = () => {
         <div
           className={classes.paper}
           style={{
-            backgroundColor:"#EAE7DC",
+            backgroundColor:"#E4D96F",
             
           }}
         >

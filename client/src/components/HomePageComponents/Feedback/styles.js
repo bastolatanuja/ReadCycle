@@ -7,7 +7,7 @@ const styles = makeStyles(() => ({
     height: "auto",
     paddingBottom: "20px",
     background:
-      "linear-gradient(180deg, rgba(234,231,220,1) 48%, rgba(216,199,165,1) 96%)",
+      "#FFFFE0",
   },
 
   content: {

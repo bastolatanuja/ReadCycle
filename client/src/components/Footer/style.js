@@ -3,14 +3,14 @@ import { makeStyles } from "@material-ui/core";
 const styles = makeStyles(() => ({
   footer: {
     position: "center",
-    background: "#EDC253",
+    background: "#FFFFCC",
   },
 
   flexContainer: {
     display: "flex",
     flexFlow: "row nowrap",
     background:
-     "#EDC253",
+     "#FFFFCC",
     padding: "30px 0px 0px 0px",
     justifyContent: "center",
     alignItems: "ceter",
@@ -30,6 +30,7 @@ const styles = makeStyles(() => ({
     transition: ".5s",
     "&:hover": {
       transform: "scale(1.3)",
+     
     },
   },
 
@@ -38,13 +39,17 @@ const styles = makeStyles(() => ({
     textAlign: "center",
     paddingInlineStart: "0px",
     transition: "1s",
+    "&:hover": {
+      color: "black",
+     // textShadow: "0 0 5px #E2F0F9",
+    },
   },
 
   linkName: {
     color: "#2F4858",
     transition: "0.5s",
     "&:hover": {
-      color: "#E2F0F9",
+      color: "black",
       textShadow: "0 0 5px #E2F0F9",
     },
   },
@@ -52,7 +57,7 @@ const styles = makeStyles(() => ({
   name: {
     color: "#E85A4F",
     "&:hover": {
-      color: "#E2F0F9",
+      color: "green",
     },
   },
 

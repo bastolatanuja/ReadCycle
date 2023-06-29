@@ -153,7 +153,7 @@ const Footer = () => {
               key="Home"
               className={classes.name}
             >
-              Bookxchanger
+              ReadCycle
             </Link>{" "}
             {new Date().getFullYear()}
             {". "}

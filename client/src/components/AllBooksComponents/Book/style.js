@@ -4,7 +4,7 @@ export default makeStyles({
   card: {
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "rgb(216,199,165)",
+    backgroundColor: " #F5F5DC",
     borderRadius: "15px",
     height: "100%",
     position: "relative",
@@ -46,13 +46,13 @@ export default makeStyles({
   },
 
   Branch: {
-    backgroundColor: "#e98074",
+    backgroundColor: "#E8AA42",
     width: "140px",
     marginLeft: "15px",
     fontSize: "11px",
     fontWeight: "500",
     padding: "1px auto",
-    color: "black",
+    color: "#2F4858",
     textAlign: "center",
     whiteSpace: "nowrap",
     verticalAlign: "middle",
@@ -65,6 +65,7 @@ export default makeStyles({
     textOverflow: "ellipsis",
     overflow: "hidden",
     whiteSpace: "nowrap",
+    color:"#2F4858"
  
   },
 
@@ -74,21 +75,22 @@ export default makeStyles({
     overflow: "hidden",
     marginLeft: "15px",
     marginRight: "15px",
+    color:"#2F4858",
     marginBottom: "10px",
   },
 
   owner: {
-    color: "black",
+    color: "#2F4858",
     transition: "0.5s",
     "&:hover": {
-      color: "#e85a4f",
+      color: "#FFA500",
       textShadow: "0 0 5px ##e98074",
     },
   },
   button: {
-    backgroundColor: "#e98074",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e85a4f",
+      backgroundColor: "#FFA500",
     },
   },
 });

@@ -66,13 +66,13 @@ const HowToSell = () => {
 
   return (
     <>
-      <div style={{ background: "rgb(234,231,220)" }}>
+      <div style={{ background: "#FFFFE0" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
           
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
             
           }}

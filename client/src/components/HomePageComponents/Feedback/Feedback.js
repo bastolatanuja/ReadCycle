@@ -30,12 +30,12 @@ const Feedback = () => {
 
   return (
     <>
-      <div style={{ background: "rgb(234,231,220)", paddingTop: "20px" }}>
+      <div style={{ background: "#FFFFE0", paddingTop: "20px" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
           }}
         >
@@ -43,9 +43,9 @@ const Feedback = () => {
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid black",
             width: "300px",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             margin: "0px auto",
           }}
         />
