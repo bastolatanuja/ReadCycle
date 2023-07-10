@@ -21,7 +21,7 @@ const styles = makeStyles((theme) => ({
     zIndex: "10",
     paddingTop: "20px",
     backgroundImage:
-      "linear-gradient(rgba(0,1,1,0.3),rgba(1,0,0.5)),url('https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')",
+      "linear-gradient(rgba(0,1,1,0.3),rgba(1,0,0.5)),url('https://www.realsimple.com/thmb/KrGb42aamhHKaMzWt1Om7U42QsY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-books-for-anytime-2000-4ff4221eb1e54b659689fef7d5e265d5.jpg')",
     "@media (max-width : 700px)": {
       height: "275px",
       paddingTop: "40px",
@@ -53,17 +53,17 @@ const styles = makeStyles((theme) => ({
 
   edition: {
     fontSize: "30px",
-    color: "rgb(216,199,165)",
+    color: "white",
     display: "inline",
-    textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
+    //textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
     "@media (max-width : 700px)": {
       fontSize: "15px",
     },
   },
 
   branch: {
-    color: "rgb(216,199,165)",
-    backgroundColor: "#e98074",
+    color: "#2F4858",
+    backgroundColor: "#E8AA42",
     width: "200px",
     minWidth: "10px",
     padding: "3px 5px",
@@ -84,7 +84,7 @@ const styles = makeStyles((theme) => ({
   date: {
     color: "white",
     fontSize: "15px",
-    textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
+   // textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
     "@media (max-width : 700px)": {
       fontSize: "9px",
     },
@@ -94,7 +94,7 @@ const styles = makeStyles((theme) => ({
   bookMain: {
     color: "rgb(216,199,165)",
     display: "inline-block",
-    textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
+   // textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
   },
   price: {
     display: "inline-block",
@@ -102,7 +102,7 @@ const styles = makeStyles((theme) => ({
     fontWeight: "600",
     color: "#d8c3a5",
     marginLeft: "100px",
-    textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
+   // textShadow: "1px 1px 2px black ,0 0 10px blue, 0 0 5px green",
     "@media (max-width : 700px)": {
       fontSize: "15px",
       marginLeft: "0px",
@@ -112,13 +112,13 @@ const styles = makeStyles((theme) => ({
   middleContainer: {
     display: "flex",
     flexDirection: "row",
-    color: "black",
+    color: "#2F4858",
     position: "relative",
     paddingTop: "20px",
     paddingLeft: "6%",
     paddingRight: "6%",
     paddingBottom: "20px",
-    background: "rgb(234,231,220)",
+    background: "#FFFFE0",
     width: "100%",
     margin: "auto",
     height: "auto",
@@ -142,7 +142,7 @@ const styles = makeStyles((theme) => ({
     display: "inline",
     width: "900px",
     marginRight: "10px",
-    backgroundColor: "rgb(216,199,165)",
+    backgroundColor: "#F5F5DC",
     padding: "1px",
     borderRadius: "5px",
     boxShadow: "1px 1px 30px 2px grey",
@@ -202,17 +202,17 @@ const styles = makeStyles((theme) => ({
   },
 
   name: {
-    color: "#E85A4F",
+    color: "#E8AA42",
     "&:hover": {
-      color: "E98O74",
+      color: "orange",
     },
   },
 
   sideContainer: {
-    color: "black",
+    color: "#2F4858",
     display: "inline",
     width: "350px",
-    backgroundColor: "rgb(216,199,165)",
+    backgroundColor: "#F5F5DC",
     height: "auto",
     padding: "20px",
     marginLeft: "10px",
@@ -238,6 +238,7 @@ const styles = makeStyles((theme) => ({
     height: "80px",
     width: "80px",
     borderRadius: "50%",
+    backgroundColor:"#E8AA42",
     float: "left",
     marginRight: "10px",
   },

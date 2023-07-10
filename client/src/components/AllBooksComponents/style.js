@@ -24,6 +24,7 @@ export default makeStyles((theme) => ({
     display : "flex",
     flexWrap : "wrap",
     justifyContent:'center',
+  
 
   },
   actionDiv: {
@@ -65,6 +66,12 @@ export default makeStyles((theme) => ({
   buttonS: {
     padding: "0px 0px",
   },
+
+  button:{
+    color:"#E8AA42"
+  },
+
+
 
   grid:{
     padding:'10px'

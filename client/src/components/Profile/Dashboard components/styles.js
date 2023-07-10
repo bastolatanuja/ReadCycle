@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   body: {
     padding: 0,
     width: "88%",
-    background: "#EAE7DC",
+    background: "#F5F5DC",
 
     [theme.breakpoints.down(1000)]: {
       width: "89%",
@@ -28,7 +28,7 @@ export default makeStyles((theme) => ({
 
   },
   root: {
-    backgroundColor: "#E98074",
+    backgroundColor: "#E8AA42",
   },
   grid:{
     padding:'10px'

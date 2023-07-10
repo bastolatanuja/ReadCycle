@@ -41,13 +41,13 @@ const Dashboard = ({ userId }) => {
       <Container className={classes.body}>
         <Typography
           variant="h5"
-          style={{ textAlign: "center", paddingTop: "10px" }}
+          style={{ textAlign: "center", paddingTop: "10px" ,color:"#2F4858"}}
         >
           Ads Posted By {user.name}
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid black",
             width: "50%",
             background: "rgb(234,231,220)",
             margin: "0px auto",

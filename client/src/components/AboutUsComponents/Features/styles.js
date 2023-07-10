@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core";
 
 const styles = makeStyles((theme) => ({
   Main: {
-    background: "rgb(234,231,220)",
+    background: "#FAFAFA",
   },
 
   name: {

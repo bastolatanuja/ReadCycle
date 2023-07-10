@@ -43,7 +43,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (user1) dispatch(getProfile(user1.profile.id));
-  }, [dispatch]);
+  }, );
 
   const [userData, setUserData] = useState({
     name: "",
@@ -75,7 +75,7 @@ const Profile = () => {
 
   useEffect(() => {
     setUserData(userData);
-  }, [user]);
+  }, [user, userData]);
 
   useEffect(() => {
     if (user)
@@ -87,7 +87,7 @@ const Profile = () => {
         location: user.location,
         profilePic: user.profilePic,
       });
-  }, [user, setUserData]);
+  }, [user, setUserData, userData]);
 
   const handleSubmitUserInfo = (e) => {
     e.preventDefault();
@@ -108,7 +108,7 @@ const Profile = () => {
       handleClose();
       setSeverity("success");
     }
-  }, [user, error]);
+  }, [user, error, key, userData]);
 
   useEffect(() => {
     if (error.msg || error.message) {
@@ -420,7 +420,7 @@ const Profile = () => {
                   <Button style={{ color: "#E8D8A" }} onClick={handleClose}>
                     Cancel
                   </Button>
-                  <Button style={{ color: "#E85A4F" }} type="submit">
+                  <Button style={{ color: "#E8AA42" }} type="submit">
                     Reset Password
                   </Button>
                 </DialogActions>

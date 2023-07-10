@@ -271,11 +271,11 @@ const BookInfo = ({ match }) => {
                   <Typography
                     variant="body2"
                     style={{
-                      color: "white",
+                      color: "#2F4858",
                       fontSize: "22px",
                       textAlign: "center",
                       padding: "5px",
-                      backgroundColor: "#e98074",
+                      backgroundColor: "#E8AA42",
                       borderRadius: "30px",
                       border: "2px solid black",
                     }}
@@ -302,7 +302,7 @@ const BookInfo = ({ match }) => {
           </div>
         </div>
       </div>
-      <div style={{ background: "rgb(234,231,220)" }}>
+      <div style={{ background: "#FFFFCC" }}>
         <Typography
           align="center"
           style={{
@@ -310,7 +310,7 @@ const BookInfo = ({ match }) => {
             position: "Centre",
             padding: "5px 0 5px 0",
 
-            color: "black",
+            color: "#2F4858",
           }}
         >
           {"Mention "}
@@ -320,33 +320,34 @@ const BookInfo = ({ match }) => {
             key="Home"
             className={classes.name}
           >
-            Bookxchanger
+            ReadCycle
           </Link>{" "}
           {" when contacting seller to get a good deal."}
         </Typography>
       </div>
 
-      <div style={{ background: "rgb(234,231,220)", padding: "20px" }}>
+      <div style={{ background: "#FFFFE0", padding: "20px" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
+            color:"#2F4858"
           }}
         >
           Similar Books
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid black",
             width: "300px",
             background: "rgb(234,231,220)",
             margin: "0px auto",
           }}
         />
         {filterbooks.length === 0 ? (
-          <Typography align="center" variant="h5" style={{ padding: "50px " }}>
+          <Typography align="center" variant="h5" style={{ padding: "50px " ,color:"#2F4858"}}>
             No similar book found
           </Typography>
         ) : (

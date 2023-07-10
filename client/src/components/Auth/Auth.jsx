@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { GoogleOAuthProvider } from '@react-oauth/google';
 import {
   Paper,
   Grid,
@@ -138,8 +139,9 @@ const Auth = () => {
     } catch (err) {}
   };
 
-  const googleError = () => {
+  const googleError = (res) => {
     alert("Google Sign In was unsuccessful. Try again later");
+    console.log(res)
   };
 
   return (
@@ -341,7 +343,7 @@ const Auth = () => {
             ) : null}
             <form className={classes.form} onSubmit={handleSubmit}>
               <GoogleLogin
-                clientId="466345532266-vvuivtauk0h4b7b1um3sjlgac56sghsb.apps.googleusercontent.com"
+                clientId="355765657349-87evsb2kmv8u243angjfifsl64i1or3i.apps.googleusercontent.com"
                 render={(renderProps) => (
                   <Box align="center">
                     <Button

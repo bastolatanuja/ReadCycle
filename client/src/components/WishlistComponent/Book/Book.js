@@ -153,7 +153,7 @@ const Book = ({ book }) => {
             style={{
               marginLeft: "5px",
               marginRight: "5px",
-              color: "#E98074",
+              color: "#E8AA42",
             }}
           />
           <Link to={`/user/${book.owner}`} style={{ textDecoration: "none" }}>
@@ -164,7 +164,7 @@ const Book = ({ book }) => {
         <CardActions disableSpacing>
           <ScheduleIcon
             fontSize="small"
-            style={{ marginLeft: "5px", marginRight: "5px" }}
+            style={{ marginLeft: "5px", marginRight: "5px",color:"#EAAA42" }}
           />
           <Typography variant="body2">
             {moment(book.createdAt).format("DD MMM, YYYY")}

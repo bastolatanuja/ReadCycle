@@ -17,6 +17,8 @@ if (typeof window === "undefined") {
 }
 connectDB();
 
+
+
 app.get("/", (req, res) => {
   res.send("This is Bookxchanger");
 });
@@ -48,7 +50,7 @@ var server = app.listen(PORT, () =>
 
 options = {
   cors: true,
-  origins: ["https://localhost:5000"],
+  origins: ["http://localhost:5000"],
 };
 const io = require("socket.io")(server, options);
 
@@ -117,7 +119,7 @@ io.on("connection", async (socket) => {
           receiver.email,
           receiver.name,
           message.fromName,
-          `https://localhost:5000/user/${message.from}`
+          `http://localhost:5000/user/${message.from}`
         );
       }
     } catch (err) {}

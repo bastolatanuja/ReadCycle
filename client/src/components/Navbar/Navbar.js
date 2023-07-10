@@ -389,7 +389,7 @@ const Navbar = () => {
     var position = element.getBoundingClientRect();
   
     // checking whether fully visible
-    console.log(position.top,(position.top >= -80))
+    // console.log(position.top,(position.top >= -80))
 
     if(position.top >= -80) {
       

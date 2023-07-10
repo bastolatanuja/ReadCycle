@@ -26,22 +26,22 @@ const DevelopedBy = () => {
 
   return (
     <>
-      <div style={{ background: "rgb(234,231,220)" }}>
+      <div style={{ background: "#FFFFCC" }}>
         <Typography
           variant="h6"
           style={{
             textAlign: "center",
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingTop: "10px",
           }}
         >
-          Developed By
+           <h4 style={{color:'#2f4858'}}>Developed By</h4>
         </Typography>
         <hr
           style={{
-            border: "1.5px solid #8e8d8a",
+            border: "1.5px solid #2F4858",
             width: "300px",
-            background: "rgb(234,231,220)",
+            background: "black",
             margin: "0px auto",
           }}
         />
@@ -51,11 +51,11 @@ const DevelopedBy = () => {
         responsive={responsive}
         arrows={false}
         infinite={true}
-        autoPlay={true}
+        autoPlay={false}
         autoPlaySpeed={6000}
       >
         {profiles.map((profile, index) => (
-          <div style={{ background: "rgb(234,231,220)", padding: " 20px 0px" }}>
+          <div style={{ background: "#FFFFE0", padding: " 20px 0px" }}>
             <Grid>
               <Container>
                 <Profile

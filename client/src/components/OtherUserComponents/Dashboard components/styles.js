@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
   body: {
-    background: "#eae7dc",
+    background: "#F5F5DC",
     borderRadius: "5px",
     minHeight: "auto",
     margin: "20px 10px",

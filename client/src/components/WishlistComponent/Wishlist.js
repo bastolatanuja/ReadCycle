@@ -55,7 +55,7 @@ const Wishlist = () => {
 
   var images = [
     {
-      img: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80",
+      img: "https://ychef.files.bbci.co.uk/976x549/p03gg1lc.jpg",
     },
     {
       img: "https://www.teahub.io/photos/full/190-1905414_books-library-wallpaper-hd-wallpapers-for-pc-book.jpg",
@@ -122,12 +122,12 @@ const Wishlist = () => {
               <Container>
                 <div
                   style={{
-                    background: "#e85a4f",
+                    background: "#FFFFCC",
                     borderRadius: "0.7rem",
                     textAlign: "center",
                   }}
                 >
-                  <Typography variant="h4" style={{ color: "white" }}>
+                  <Typography variant="h4" style={{ color: "#2F4858" }}>
                     Your Favourite Books
                   </Typography>
                 </div>

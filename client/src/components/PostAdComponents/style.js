@@ -21,9 +21,9 @@ export default makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
-    backgroundColor: "#e7dbc9",
+    backgroundColor: "#FFFFCC",
     borderRadius: "0.7rem",
-    border: "3px solid #E98074",
+    border: "3px solid #E8AA42",
     textShadow: "0 0 1px #e98074",
     boxShadow: "8px 8px 8px grey",
   },
@@ -37,7 +37,7 @@ export default makeStyles((theme) => ({
     margin: "10px 0",
   },
   buttonSubmit: {
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
       backgroundColor: "#e98074",
     },
@@ -60,33 +60,33 @@ export default makeStyles((theme) => ({
     display: "none",
   },
   mainContainer: {
-    backgroundColor: "#e5e1d4",
+    backgroundColor: "#FFFFE0",
   },
   textfield: {
     marginBottom: "20px",
     //border: "1px solid black",
   },
   backbutton: {
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
-    color: "white",
+    color: "#2F4858",
     margin: theme.spacing(1),
   },
   nextbutton: {
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
-    color: "white",
+    color: "#2F4858",
     margin: theme.spacing(1),
   },
   box: {
     margin: theme.spacing(2),
   },
   stepper: {
-    background: "#E98074",
+    background: "green",
     borderRadius: "0.7rem",
     width: "80%",
   },
@@ -101,7 +101,7 @@ export default makeStyles((theme) => ({
   stepcolor: {
     backgroundColor: "#8E8D8A",
     width: "35px",
-    padding: "5px",
+    padding: "20px",
     textAlign: "center",
     height: "35px",
     fontSize: "17px",

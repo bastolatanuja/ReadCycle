@@ -133,7 +133,7 @@ const SearchBox = () => {
       </div>
       <div
         className={classes.middleContainer}
-        style={{ backgroundColor: "#eae7dc" }}
+        style={{ backgroundColor: "#FFFFE0" }}
       >
         <div className={classes.searchboxes} noValidate autoComplete="off">
           <div>
@@ -279,10 +279,10 @@ const SearchBox = () => {
             size="large"
             aria-label="outlined secondary button group"
           >
-            <Button style={{ color: "#e85a4f" }} onClick={showAdv}>
+            <Button style={{ color: "#E8AA42" }} onClick={showAdv}>
               {isadv ? "Hide Advanced Search" : "Advanced Search"}
             </Button>
-            <Button style={{ color: "#e85a4f" }} onClick={removeFilters}>
+            <Button style={{ color: "#E8AA42" }} onClick={removeFilters}>
               Reset Search
             </Button>
           </ButtonGroup>

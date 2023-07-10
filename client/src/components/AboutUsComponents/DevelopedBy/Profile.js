@@ -6,6 +6,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 import useStyles from "./styles.js";
+import tanuja from "../../../asset/tanuja.jpg";
 
 const Profile = ({ name, subHeading, img, github, linkedin }) => {
   const classes = useStyles();
@@ -14,15 +15,19 @@ const Profile = ({ name, subHeading, img, github, linkedin }) => {
   const ProfileCardFront = () => {
     return (
       <Card raised className={`${classes.card} ${classes.frontCard}`}>
-        <img src={img} alt="Profile" className={classes.img} />
-        <Typography component="span" align="center" variant="h5">
+        <img src={tanuja} alt="Profile" className={classes.img} />
+        <Typography component="span" align="center" variant="h5"
+        style={{ padding: "0 0.25rem" , color:"#2F4858"}}
+        >
+        
           {name}
+         
         </Typography>
         <Typography
           component="span"
           align="center"
           variant="subtitle1"
-          style={{ padding: "0 0.25rem" }}
+          style={{ padding: "0 0.25rem" , color:"#2F4858"}}
         >
           {subHeading}
         </Typography>

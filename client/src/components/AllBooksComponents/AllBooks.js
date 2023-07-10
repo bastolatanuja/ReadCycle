@@ -133,7 +133,7 @@ const AllBooks = () => {
 
         <div
           className={classes.maincontainer}
-          style={{ backgroundColor: "#eae7dc" }}
+          style={{ backgroundColor: "#FFFFE0" }}
         >
           <div className={classes.sortby}>
             <hr
@@ -165,7 +165,7 @@ const AllBooks = () => {
               </FormControl>
               <Button
                 variant="text"
-                color="secondary"
+              
                 onClick={removeSort}
                 className={classes.button}
               >
@@ -205,9 +205,11 @@ const AllBooks = () => {
               )}
               <br />
               <Pagination
+             
                 booksPerpage={booksPerpage}
                 totalBooks={filterData.length}
                 paginate={paginate}
+                
               />
               <br />
               <br />

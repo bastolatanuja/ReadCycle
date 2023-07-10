@@ -28,7 +28,7 @@ export default makeStyles((theme) => ({
   },
 
   head: {
-    backgroundColor: "#EAE7DC",
+    backgroundColor: "#FFFFE0",
     display: "flex",
     flexDirection: "row",
   },
@@ -69,7 +69,7 @@ export default makeStyles((theme) => ({
   },
 
   body: {
-    backgroundColor: "#EAE7DC",
+    backgroundColor: "#FFFFE0",
     display: "flex",
     flexDirection: "column",
     width: "88%",
@@ -104,11 +104,11 @@ export default makeStyles((theme) => ({
   Edit: {
     width: "18%",
     marginLeft: "80%",
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
-    color: "white",
+    color: "#2F4858",
   },
 
   button: {
@@ -133,10 +133,11 @@ export default makeStyles((theme) => ({
   changePassword: {
     width: 180,
     marginLeft: "77%",
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
+    color: "#2F4858",
   },
 
   textField: {
@@ -152,15 +153,15 @@ export default makeStyles((theme) => ({
     marginBottom: 30,
     marginTop: 30,
     marginLeft: "72%",
-    color: "white",
-    backgroundColor: "#e85a4f",
+    color: "#2F4858",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
   },
 
   rootTab: {
-    backgroundColor: "#E98074",
+    backgroundColor: "#E8AA42",
   },
 
   topBox: {
@@ -173,7 +174,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "#286FB4",
+    backgroundColor: "#E8AA42",
     width: "14%",
     height: 120,
     marginTop: 60,
@@ -185,7 +186,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "#1abc9c",
+    backgroundColor: "#E4D96F",
     width: "14%",
     height: 120,
     marginTop: 60,
@@ -193,7 +194,7 @@ export default makeStyles((theme) => ({
   },
 
   listNumber: {
-    color: "white",
+    color: "#2F4858",
     fontSize: 50,
     fontWeight: 20,
   },
@@ -242,20 +243,22 @@ export default makeStyles((theme) => ({
   },
 
   uploadPhoto: {
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
+    color:"#2F4854"
   },
 
   [theme.breakpoints.up(700)]: {
     removePho: {
       marginLeft: 30,
       marginTop: 20,
-      backgroundColor: "#e85a4f",
+      backgroundColor: "#E8AA42",
       "&:hover": {
-        backgroundColor: "#e98074",
+        backgroundColor: "#FFA500",
       },
+      color:"#2F4854"
     },
 
     uploadPhoto: {

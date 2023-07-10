@@ -20,11 +20,11 @@ const styles = makeStyles(() => ({
   },
   content: {
     top: "50%",
-    left: "30%",
-    zIndex: "10",
+    left: "50%",
+    zIndex: "60",
     position: "absolute",
     transform: "translate(-50%,-50%)",
-    color: "#eae7dc",
+    color: "#2F4858",
     "@media (max-width : 700px)": {
       textAlign: "center",
       top: "50%",

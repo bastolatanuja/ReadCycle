@@ -5,9 +5,9 @@ const styles = makeStyles((theme) => ({
     width: "100%",
     textAlign: "center",
     color: "white",
-    height: "200px",
+    height: "400px",
     backgroundImage:
-      "url(https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+      "url(https://foundr.com/wp-content/uploads/2022/08/Best-business-books.png)",
     "@media (max-width : 700px)": {
       height: "225px",
       paddingTop: "40px",
@@ -15,11 +15,11 @@ const styles = makeStyles((theme) => ({
   },
 
   head: {
-    color: "e8e7dc",
-    fontSize: "50px",
-    paddingLeft: "8%",
+    color: "#2F4858",
+    fontSize: "60px",
+    paddingLeft: "20%",
     position: "absolute",
-    bottom: "8px",
+    bottom: "10px",
     left: "16px",
     "@media (max-width : 700px)": {
       fontSize: "30px",
@@ -55,9 +55,9 @@ const styles = makeStyles((theme) => ({
   button: {
     justifyContent: "center",
     margin: "25px 0px",
-    backgroundColor: "#e85a4f",
+    backgroundColor: "#E8AA42",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
     "@media (max-width : 700px)": {
       marginBottom: "10px",
@@ -85,12 +85,12 @@ const styles = makeStyles((theme) => ({
   },
 
   gridItem: {
-    border: "1px solid blue",
+    border: "1px solid orange",
     borderRadius: "10px",
   },
   formControl: {
     backgroundColor: "white",
-    border: "1 px solid grey",
+    border: "1 px solid orange",
     borderRadius: "8px",
   },
 

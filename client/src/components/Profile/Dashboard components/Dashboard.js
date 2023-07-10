@@ -62,7 +62,7 @@ const Dashboard = () => {
   const override = css`
     display: block;
     border-color: red;
-    background-color: #eae7dc;
+    background-color: green;
   `;
 
   function card(book) {

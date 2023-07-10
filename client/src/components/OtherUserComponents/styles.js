@@ -8,8 +8,8 @@ import { green, pink } from "@material-ui/core/colors";
 
 export default makeStyles((theme) => ({
   container: {
-    paddingTop: "20px",
-    backgroundColor: "#EDC253",
+    paddingTop: "70px",
+    backgroundColor: "#FFFFE0",
   },
 
   back: {
@@ -31,11 +31,12 @@ export default makeStyles((theme) => ({
   name: {
     width: "300px",
     marginTop: 50,
+    color:"#2F4858"
   },
 
   head: {
     paddingTop: "10px",
-    border: "2px solid #8e8d8a",
+    border: "2px solid #E8AA42",
     backgroundColor:
       "radial-gradient(circle, rgba(255,255,255,1) 7%, rgba(216,195,165,1) 97%)",
     display: "flex",
@@ -45,6 +46,7 @@ export default makeStyles((theme) => ({
 
   headUser: {
     fontSize: "15px",
+    color:"#2F4858"
   },
 
   pic: {
@@ -52,6 +54,7 @@ export default makeStyles((theme) => ({
     height: "190px",
     margin: "3%",
     borderRadius: "200px",
+    
   },
 
   body: {
@@ -112,7 +115,7 @@ export default makeStyles((theme) => ({
 
   pink: {
     color: theme.palette.getContrastText(pink[500]),
-    backgroundColor: pink[500],
+    backgroundColor: pink[200],
   },
 
   green: {
@@ -152,7 +155,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "#286FB4",
+    backgroundColor: "#E8AA42",
     width: "14%",
     height: 120,
     marginTop: 60,
@@ -164,7 +167,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "#1abc9c",
+    backgroundColor: "#E4D96F",
     width: "14%",
     height: 120,
     marginTop: 60,
@@ -172,7 +175,7 @@ export default makeStyles((theme) => ({
   },
 
   listNumber: {
-    color: "white",
+    color: "#2F4858",
     fontSize: 50,
     fontWeight: 20,
   },

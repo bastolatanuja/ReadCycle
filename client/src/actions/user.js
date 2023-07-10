@@ -32,7 +32,7 @@ export const editProfile = (userData) => async (dispatch) => {
         dispatch({type:EDIT_PROFILE,payload:data});
         dispatch({type:VALID,payload:{msg:"Profile Updated Successfully"}})
     } catch (error) {
-        
+        console.log(error);
         const data = error.response.data;
         dispatch({type:ERROR,payload:data});
         dispatch({type:VALID,payload:data})
@@ -52,7 +52,7 @@ export const changePassword = (passData) => async (dispatch) => {
         console.log(error);
         const data = error.response.data;
         dispatch({type:ERROR,payload:data});
-        dispatch({type:VALID,payload:data})
+        dispatch({type:VALID,payload:data});
     }
     
 };

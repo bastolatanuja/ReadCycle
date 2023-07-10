@@ -83,7 +83,7 @@ exports.signUp = async (req, res) => {
       requireTLS: true,
       auth: {
         user: sender,
-        pass: "Book@123123",
+        pass: "20july4V",
       },
     });
 
@@ -178,7 +178,7 @@ exports.verifyEmail = async (req, res) => {
       requireTLS: true,
       auth: {
         user: sender,
-        pass: "Book@123123",
+        pass: "20july4V",
       },
     });
 
@@ -269,7 +269,7 @@ exports.sendResetPassEmail = async (req, res) => {
       requireTLS: true,
       auth: {
         user: sender,
-        pass: "Book@123123",
+        pass: "20july4V",
       },
     });
 
@@ -362,13 +362,13 @@ function random_password_generate(max, min) {
 
 exports.googleFacebookSignIn = async (req, res) => {
   const { email, name, profilePic } = req.body;
-  // console.log(email)
+   console.log(email)
   try {
     const oldUser = await User.findOne({ email: email });
 
     if (!oldUser) {
       const password = random_password_generate(20, 10);
-      // console.log(name);
+       console.log(name);
       //siMrjVb44!QFG
       // console.log(password);
       const hashedPassword = await bcrypt.hash(password, 10);
@@ -546,7 +546,7 @@ exports.sendMail = async (req, res) => {
       requireTLS: true,
       auth: {
         user: "tanujabastola143@gmail.com",
-        pass: "Book@123123",
+        pass: "20jul4V",
       },
     });
 
@@ -589,7 +589,7 @@ const sendGoogleMail = async (to, toName, password) => {
       requireTLS: true,
       auth: {
         user: "tanujabastola143@gmail.com",
-        pass: "Book@123123",
+        pass: "20july4V",
       },
     });
 
@@ -624,7 +624,7 @@ exports.sendChatMail = async (to, toName, fromName, url) => {
       requireTLS: true,
       auth: {
         user: "tanujabastola143@gmail.com",
-        pass: "Book@123123",
+        pass: "20july4V",
       },
     });
 

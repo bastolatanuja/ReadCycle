@@ -53,7 +53,7 @@ const ForgotPassword = ({match}) => {
 
   useEffect(()=>{
     dispatch(checkUserValid(match.params.token,history));
-  },[])
+  },[dispatch, history, match.params.token])
 
 
   const [values2, setValues2] = useState({

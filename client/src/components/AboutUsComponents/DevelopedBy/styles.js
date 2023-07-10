@@ -12,7 +12,7 @@ export default makeStyles(() => ({
     cursor: "pointer",
     transition: ".5s",
     "&:hover": {
-      color: "#e85a4f",
+      color: "black",
       textShadow: "0 0 2px #e85a4f",
     },
     "@media (max-width : 700px)": {
@@ -20,7 +20,7 @@ export default makeStyles(() => ({
     },
   },
   frontCard: {
-    backgroundColor: "rgb(216,199,165)",
+    backgroundColor: "#F5F5DC",
     padding: "1rem 0rem 1rem 0rem",
   },
   backCard: {
@@ -29,7 +29,7 @@ export default makeStyles(() => ({
     backgroundPosition: "center",
   },
   backCardContent: {
-    backgroundColor: "rgba(232, 90, 79, 0.4)",
+    backgroundColor: "#E8AA42",
     height: "100%",
     color: "#fff",
     display: "flex",
@@ -68,7 +68,7 @@ export default makeStyles(() => ({
     width: "100%",
     height: "80%",
     padding: "5px",
-    border: "5px solid #e85a4f",
+    border: "5px solid #E8AA42",
     borderRadius: "50%",
     objectFit: "cover",
     margin: "0 1rem 1rem 1rem",

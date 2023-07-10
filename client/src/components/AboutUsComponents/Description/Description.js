@@ -18,17 +18,25 @@ const Description = () => {
           }}
         >
           <div>
-            <Typography variant="h1" className={classes.content}>
-              Welcome to
-              <Typography variant="h1">
+            <Typography variant="h2" className={classes.content}>
+            <Typography variant="h1">
                 <Box
                   fontWeight="fontWeightBold"
                   className={classes.contentBold}
                 >
-                  BookXchanger
+                  ReadCycle.
+                  
                 </Box>
+                
               </Typography>
-            </Typography>
+             
+             
+                  
+              "Read it,Swap it".  
+              </Typography>
+
+             
+            
           </div>
         </div>
       </div>

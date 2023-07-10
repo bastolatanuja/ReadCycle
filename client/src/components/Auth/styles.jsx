@@ -10,7 +10,7 @@ export default makeStyles((theme) => ({
     width: "540px",
     marginBottom: "20px",
     marginLeft: "80px",
-    backgroundColor: "rgba(230,188,81,0.6)",
+    backgroundColor: "#FFFFCC",
     borderRadius: "0.7rem",
   },
 
@@ -41,7 +41,7 @@ export default makeStyles((theme) => ({
     width: "40%",
     backgroundColor: "#E6BC51",
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
   },
 
@@ -51,7 +51,7 @@ export default makeStyles((theme) => ({
     
   //  backgroundColor:'transparent',
     "&:hover": {
-      backgroundColor: "#e98074",
+      backgroundColor: "#FFA500",
     },
   },
   reg: {
@@ -69,7 +69,7 @@ export default makeStyles((theme) => ({
   switch: {},
 
   mainContainer: {
-    backgroundColor: "#e5e1d4",
+    backgroundColor: "#FFFFE0",
   },
 
   avt: {

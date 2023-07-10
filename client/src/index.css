@@ -2,7 +2,9 @@ body,html {
   background-attachment: fixed;
   background-size: contain;
   font-family: 'Poppins',sans-serif !important;
+  /* background-color: #ffffe0; */
 }
+
 #root {
   padding: 0px !important;
   margin: 0 !important;
@@ -12,7 +14,7 @@ body,html {
   padding: 0px !important;
   margin-right: 0px !important;
   margin-left: 0px !important;
-  font-family: 'Poppins',sans-serif !important;
+  font-family: 'Poppins',sans-serif !important;  
 }
 
 #root > .MuiContainer-maxWidthLg {
@@ -41,10 +43,19 @@ body,html {
 .makeStyles-mainContainer-23 {
   padding-top: 50px;
 }
+
 .custom_color{
   color: rgb(47, 72, 88);;
 }
 
 .MuiAvatar-colorDefault {
   background-color: #e8aa42 !important;
+}
+/* developed by css */
+.react-multi-carousel-track {
+  margin: auto;
+}
+
+.MuiContainer-root div:nth-child(3){
+  /* padding-top: 77px !important; */
 }

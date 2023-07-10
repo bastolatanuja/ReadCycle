@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles((theme) => ({
   bottom: {
     display: "flex",
-    background: "rgb(234,231,220)",
+    background: "#FAFAFA",
     paddingBottom: "20px",
     "@media (max-width : 700px)": {
       display: "inline",
@@ -52,11 +52,11 @@ export default makeStyles((theme) => ({
   },
 
   button: {
-    backgroundColor: "#e98074",
-    width: "300px",
-    marginBottom: "10px",
+    backgroundColor: "#E8AA42",
+    width: "160px",
+    marginLeft:"510px",
     "&:hover": {
-      backgroundColor: "#e85a4f",
+      backgroundColor: "#FFA500",
     },
     "@media (max-width : 700px)": {
       width: "100%",

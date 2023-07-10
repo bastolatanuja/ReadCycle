@@ -65,7 +65,7 @@ const Contact = () => {
       <div className={classes.main}>
         <div
           style={{
-            background: "rgb(234,231,220)",
+            background: "#FFFFCC",
             paddingBottom: "20px",
             alignItems: "centetr",
           }}
@@ -74,25 +74,25 @@ const Contact = () => {
             variant="h5"
             style={{
               textAlign: "center",
-              background: "rgb(234,231,220)",
+              background: "#FFFFCC",
               paddingTop: "10px",
             }}
           >
-            Give Your Feedback
+          <h4 style={{color:'#2f4858'}}>Give Your Feedback</h4>
           </Typography>
           <hr
             style={{
               textAlign: "center",
-              border: "1.5px solid #8e8d8a",
+              border: "1.5px solid black",
               width: "300px",
-              background: "rgb(234,231,220)",
+              background: "green",
               margin: "0px auto",
             }}
           />
         </div>
         <div className={classes.bottom}>
           <div className={classes.left}>
-            <Container style={{ borderRadius: "5px", border: "red" }}>
+            <Container style={{ borderRadius: "5px", border: "purple" }}>
               <form
                 autoComplete="off"
                 noValidate
@@ -100,7 +100,7 @@ const Contact = () => {
                 onSubmit={handleSubmit}
               >
                 <Typography variant="h6" align="center">
-                  Send us a Message
+                <h4 style={{color:'#2f4858'}}>Give us a Message</h4>
                 </Typography>
                 {err ? (
                   <Snackbar
@@ -139,14 +139,14 @@ const Contact = () => {
                   className={classes.button}
                   endIcon={<SendIcon />}
                 >
-                  <Typography>Send</Typography>
+                  <Typography><h6 style={{color:'#2f4858'}}>Send</h6></Typography>
                 </Button>
               </form>
             </Container>
           </div>
           <div className={classes.right}>
             <Typography variant="h4" align="center">
-              How can we Help ?
+              <h4 style={{color:'#2f4858'}}>How Can We Help?</h4>
             </Typography>
             <Typography variant="body1" align="center">
               Feel free to get in touch with us. We are always open to discuss
@@ -159,12 +159,12 @@ const Contact = () => {
                   primary={
                     <React.Fragment>
                       <Typography
-                        align="center"
+                        align="left"
                         component="span"
                         variant="h6"
                         color="textPrimary"
                       >
-                        Suggestion
+                        <h4 style={{color:'#2f4858'}}>Suggestions</h4>
                       </Typography>
                     </React.Fragment>
                   }
@@ -195,7 +195,7 @@ const Contact = () => {
                         className={classes.inline}
                         color="textPrimary"
                       >
-                        Facing any Issue
+                       <h4 style={{color:'#2f4858'}}>Facing Any Issues</h4>
                       </Typography>
                     </React.Fragment>
                   }
@@ -224,7 +224,7 @@ const Contact = () => {
                         className={classes.inline}
                         color="textPrimary"
                       >
-                        Report an Ad
+                      <h4 style={{color:'#2f4858'}}>Report an ad</h4>
                       </Typography>
                     </React.Fragment>
                   }
