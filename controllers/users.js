@@ -65,7 +65,7 @@ exports.signUp = async (req, res) => {
       { new: true }
     );
     updatedUser.save();
-    const sender = "tanujabastola143@gmail.com";
+    const sender = "vsesbaral@gmail.com";
     const subject = "BookXchanger Verify Email";
     const body =
       "You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n" +
@@ -77,13 +77,14 @@ exports.signUp = async (req, res) => {
       "If you did not request this, please ignore this email and your password will remain unchanged.\n";
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: 587,
+      // secure: false,
+      // requireTLS: true,
+      service: 'gmail',
       auth: {
         user: sender,
-        pass: "20july4V",
+        pass: "aabijvltoccldxkb",
       },
     });
 
@@ -161,7 +162,7 @@ exports.verifyEmail = async (req, res) => {
       { new: true }
     );
     updatedUser.save();
-    const sender = "tanujabastola143@gmail.com";
+    const sender = "vsesbaral@gmail.com";
     const subject = "BookXchanger Verify Email";
     const body =
       "Please verify your email by clicking the link below:\n\n" +
@@ -172,13 +173,14 @@ exports.verifyEmail = async (req, res) => {
       "If you did not request this, please ignore this email..\n";
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: process.env.PORT,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: process.env.PORT,
+      // secure: false,
+      // requireTLS: true,
+      service: 'gmail',
       auth: {
         user: sender,
-        pass: "20july4V",
+        pass: "aabijvltoccldxkb",
       },
     });
 
@@ -251,7 +253,7 @@ exports.sendResetPassEmail = async (req, res) => {
     );
     updatedUser.save();
     console.log(req.headers.origin);
-    const sender = "tanujabastola143@gmail.com";
+    const sender = "vsesbaral@gmail.com";
     const subject = "BookXchanger Password Reset";
     const body =
       "You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n" +
@@ -263,13 +265,14 @@ exports.sendResetPassEmail = async (req, res) => {
       "If you did not request this, please ignore this email and your password will remain unchanged.\n";
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: 587,
+      // secure: false,
+      // requireTLS: true,
+      service : 'gmail',
       auth: {
         user: sender,
-        pass: "20july4V",
+        pass: "aabijvltoccldxkb",
       },
     });
 
@@ -535,23 +538,25 @@ exports.sendMail = async (req, res) => {
       return res
         .status(400)
         .json({ msg: error.details[0].message, severity: "error" });
-    const receiver = "tanujabastola143@gmail.com";
+    const receiver = "vsesbaral@gmail.com";
     const message = req.body.message;
     const subject = `Feedback from ${req.body.name}`;
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: 587,
+      // secure: false,
+      // requireTLS: true,
+      service : 'gmail',
       auth: {
-        user: "tanujabastola143@gmail.com",
-        pass: "20jul4V",
+        user: "vsesbaral@gmail.com",
+        pass: "aabijvltoccldxkb",
       },
     });
 
+    console.log(receiver,subject,message)
     const mailOptions = {
-      from: "tanujabastola143@gmail.com",
+      from: "vsesbaral@gmail.com",
       to: receiver,
       subject: subject,
       text: message,
@@ -583,18 +588,19 @@ const sendGoogleMail = async (to, toName, password) => {
     const subject = `${toName},your passward generated; `;
 
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: 587,
+      // secure: false,
+      // requireTLS: true,
+      service : 'gmail',
       auth: {
-        user: "tanujabastola143@gmail.com",
-        pass: "20july4V",
+        user: "vsesbaral@gmail.com",
+        pass: "aabijvltoccldxkb",
       },
     });
 
     const mailOptions = {
-      from: "tanujabastola143@gmail.com",
+      from: "vsesbaral@gmail.com",
       to: receiver,
       subject: subject,
       text: message,
@@ -618,18 +624,19 @@ exports.sendChatMail = async (to, toName, fromName, url) => {
         `;
     const subject = `Dear ${toName},you have new messages `;
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      requireTLS: true,
+      // host: "smtp.gmail.com",
+      // port: 587,
+      // secure: false,
+      // requireTLS: true,
+      service : 'gmail',
       auth: {
-        user: "tanujabastola143@gmail.com",
-        pass: "20july4V",
+        user: "vsesbaral@gmail.com",
+        pass: "aabijvltoccldxkb",
       },
     });
 
     const mailOptions = {
-      from: "tanujabastola143@gmail.com",
+      from: "vsesbaral@gmail.com",
       to: receiver,
       subject: subject,
       text: message,
